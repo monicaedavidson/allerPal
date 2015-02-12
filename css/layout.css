@@ -1,0 +1,22 @@
+body {
+	
+}
+
+
+.mainList-layout {
+  width:80%;
+  margin:auto;
+}
+
+.clearfix:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.output-list-layout {
+  margin-bottom: 5em;
+  font-size: 2em;
+}

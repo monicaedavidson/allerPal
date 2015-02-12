@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>allerPal</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="images/icon-bar-copy-16.png">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/module.css">
+    <link rel="stylesheet" href="css/state.css">
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="images/logo.png"/>
+      <h1 class="Page-Header"> Join us and snack safe</h1>
+    </header>
+    <main class="mainList-layout">
+      <section class="Child-Name">
+        <label class="labels" for="name">Please Enter an ID for your Child:</label>
+        <input type="text" style="height:100px;width:700px;font-size40px;" name="name" id="nameInput">
+
+
+
+
+        <a href="#down"><input type= "button" class="add" id="nameSubmit" value="add"></a>
+        <h2 id="nameOutput" class="nameOutput"></h2>
+      </section>
+      <section>
+        <ul id="allergyItems"></ul>
+        <label class="labels">Enter Child's Allergy:</label>
+        <input type="text" style="height:100px;width:700px;font-size40px;" id="allergyInput" name="name" name="allergyInput" placeholder="allergy">
+        
+        <input type="button" class="add" id="addAnotherAllergy" value="add">
+      </section>
+      <section>
+        <a href="ListOutput.html">
+          <button><p class="publish_monica">Publish</p></button>
+        <a name="down"></a>
+        </a>
+      </section>
+    </main>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="js/allergy_ver3.js"></script>
+    <script src="js/autocomplete.js"></script>
+    <script src="js/autocomplete_allergies.js"></script>
+  </body>
+</html>

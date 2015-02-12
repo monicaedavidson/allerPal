@@ -1,0 +1,78 @@
+.warning-text {
+  padding:5%;
+  background-color: #f34f3a;
+  margin: 0.3em 0 0.5em 0;
+}
+
+.warning-text p {
+  font-family: "Montreal";
+  font-size: 1.5em;
+  line-height: 1.25em;
+  color:white;
+  margin-bottom: 0.7em;
+}
+
+.warning-text p:last-of-type{
+  margin-bottom: 0em;
+}
+
+.logo {
+  width:30%;
+  margin: 8% 0 2% 10%;
+}
+
+.Page-Header {
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  padding: 4% 0;
+  text-transform: uppercase;
+  background-color: #f34f3a;
+  margin:.5em 0 0 0;
+}
+
+.labels {
+  margin-bottom: 2.5%;
+  font-size: 3em;
+  margin-top: 45px;
+  display: block;
+}
+
+.nameOutput {
+  font-family:"Montreal";
+  font-weight: lighter;
+  font-size: 3.5em;
+  margin-bottom: .5em;
+}
+
+#allergyItems { 
+  font-family: "Montreal";
+  font-size: 2.25em;
+  font-weight: lighter;
+  line-height: 1.5em;
+  padding-top: 1em;
+ }
+
+.add {
+  width: 3.125em;
+  border-radius: 1.5625em ;
+  font-size: 2.5em;
+  line-height: 2em;
+  background-color: #0a9bae;
+  border: none;
+  color: white;
+}
+
+.delete {
+  font-family: "Montreal";
+  width: 2.5em;
+  border-radius: 1.25em;
+  background-color: #f34f3a;
+  font-size: 1.2em;
+  padding: .5em;
+  margin-left: .75em;
+}
+
+.publish_monica {
+  font-size: 40px;
+}
